@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+.mainTicketInfo {
+  background: #f5f5f5;
+  width: 100%;
+  height: 100vh;
+  font-family: Poppins;
+}
+
+.mainTicketInfo section {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 7.4rem;
+}
+
+.detailsTickets {
+  display: flex;
+  flex-direction: column;
+  border: #000 0.01rem solid;
+  padding: 3rem;
+  width: 48rem;
+  max-height: 55rem;
+}
+
+.detailsTickets h1 {
+  color: #0d0d0d;
+  font-size: 3.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.detailsTickets h2,
+.detailsTickets p {
+  color: #000;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.detailsTicketsTitle {
+  border-bottom: #000 0.01rem solid;
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.ticketDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sectionone {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+.paymentFooter {
+  margin-top: 0;
+}
+
+.ticketValue {
+  display: flex;
+  justify-content: flex-end;
+  border-top: #000 0.01rem solid;
+  margin-top: 10rem;
+}
+
+.ticketForms {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ticketForms h2 {
+  color: #000;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ticketForms span {
+  color: #3ca638;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: #3ca638 0.01rem solid;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.ticketInfor button {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: #04d924;
+  border: none;
+  border-radius: 0.8rem;
+  width: 12.6rem;
+  height: 3.6rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.ticketInfor {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.ticketInfor div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticketInfor div div {
+  gap: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.ticketInfoBtn {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ticketInfor p {
+  color: #000;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ticketInfor label {
+  color: #022601;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ticketInfor input {
+  border: 0.07rem solid #022601;
+  width: 58rem;
+  height: 4.8rem;
+  color: #000;
+  font-size: 2rem;
+  padding-left: 1.5rem;
+}
+
+.paymentsInfor {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.paymentFooter p {
+  color: #000;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2.5rem;
+}
+
+.paymentsInfor div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+
+.btnmobile {
+  display: none;
+  width: 30rem;
+  height: 3.8rem;
+  color: #f5f5f5;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  border-radius: 0.5rem;
+  background: #04D924;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+@media (max-width: 1024px){
+  .mainTicketInfo {
+    width: 100%;
+    height: 100%;
+  }
+  .mainTicketInfo section {
+    flex-direction: column;
+    padding: 0 4rem;
+    align-items: center;
+    gap: 1rem;
+  }
+  .detailsTickets {
+    width: 62rem;
+    max-height: 100vh;
+    border: none;
+    gap: 2rem;
+  }
+  .detailsTickets h1 {
+    font-size: 2.8rem;
+    border: #000 0.01rem solid;
+    padding: 1.5rem 3rem;
+    text-align: center;
+  }
+  .detailsTickets .mobileborder {
+    border: #000 0.01rem solid;
+    padding: 2rem;
+  }
+  .sectionone {
+    gap: 0;
+  }
+  .paymentFooter{
+    padding: 0 3.5rem;
+  }
+  .paymentFooter p{
+    font-size: 1.6rem;
+  }
+  .paymentFooter img {
+    width: 12rem;
+  }
+  .btnmobile {
+    display: flex;
+    margin-top: 2rem;
+    width: 45rem;
+  }
+  .ticketForms{
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .ticketForms span{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.8rem;
+  }
+  .ticketForms h2 {
+    font-size: 2rem;
+  }
+  .ticketInfor p {
+    font-size: 1.5rem;
+  }
+  .ticketInfor label {
+    font-size: 1.8rem;
+  }
+  .ticketInfor input {
+    width: 35rem;
+    height: 2.3rem;
+  }
+}
+@media (max-width: 800px){
+  .mainTicketInfo {
+    width: 100%;
+    height: 100%;
+  }
+  .mainTicketInfo section {
+    flex-direction: column;
+    padding: 0 4rem;
+    align-items: center;
+    gap: 1rem;
+  }
+  .detailsTickets {
+    width: 62rem;
+    max-height: 100vh;
+    border: none;
+    gap: 2rem;
+  }
+  .detailsTickets h1 {
+    font-size: 2.8rem;
+    border: #000 0.01rem solid;
+    padding: 1.5rem 3rem;
+    text-align: center;
+  }
+  .detailsTickets .mobileborder {
+    border: #000 0.01rem solid;
+    padding: 2rem;
+  }
+  .sectionone {
+    gap: 0;
+  }
+  .paymentFooter{
+    padding: 0 3.5rem;
+  }
+  .paymentFooter p{
+    font-size: 1.6rem;
+  }
+  .paymentFooter img {
+    width: 12rem;
+  }
+  .btnmobile {
+    display: flex;
+    margin-top: 2rem;
+    width: 45rem;
+  }
+  .ticketForms{
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .ticketForms span{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.8rem;
+  }
+  .ticketForms h2 {
+    font-size: 2rem;
+  }
+  .ticketInfor p {
+    font-size: 1.5rem;
+  }
+  .ticketInfor label {
+    font-size: 1.8rem;
+  }
+  .ticketInfor input {
+    width: 35rem;
+    height: 2.3rem;
+  }
+}
+@media (max-width: 640px){
+  .mainTicketInfo {
+    width: 100%;
+    height: 100%;
+  }
+  .mainTicketInfo section {
+    flex-direction: column;
+    padding: 0 4rem;
+    align-items: center;
+    gap: 1rem;
+  }
+  .detailsTickets {
+    width: 62rem;
+    max-height: 100vh;
+    border: none;
+    gap: 2rem;
+  }
+  .detailsTickets h1 {
+    font-size: 2.8rem;
+    border: #000 0.01rem solid;
+    padding: 1.5rem 3rem;
+    text-align: center;
+  }
+  .detailsTickets .mobileborder {
+    border: #000 0.01rem solid;
+    padding: 2rem;
+  }
+  .sectionone {
+    gap: 0;
+  }
+  .paymentFooter{
+    padding: 0 3.5rem;
+  }
+  .paymentFooter p{
+    font-size: 1.6rem;
+  }
+  .paymentFooter img {
+    width: 12rem;
+  }
+  .btnmobile {
+    display: flex;
+    margin-top: 2rem;
+    width: 45rem;
+  }
+  .ticketForms{
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .ticketForms span{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.8rem;
+  }
+  .ticketForms h2 {
+    font-size: 2rem;
+  }
+  .ticketInfor p {
+    font-size: 1.5rem;
+  }
+  .ticketInfor label {
+    font-size: 1.8rem;
+  }
+  .ticketInfor input {
+    width: 35rem;
+    height: 2.3rem;
+  }
+}
+@media (max-width: 480px){
+  .mainTicketInfo {
+    width: 100%;
+    height: 100%;
+  }
+  .mainTicketInfo section {
+    flex-direction: column;
+    padding: 0 2rem;
+    align-items: center;
+    gap: 2rem;
+  }
+  .detailsTickets {
+    max-width: 45rem;
+    max-height: 100vh;
+    border: none;
+    gap: 2rem;
+  }
+  .detailsTickets h1 {
+    font-size: 2.4rem;
+    border: #000 0.01rem solid;
+    padding: 1.5rem 3rem;
+    text-align: center;
+  }
+  .detailsTickets .mobileborder {
+    border: #000 0.01rem solid;
+    padding: 2rem;
+  }
+  .sectionone {
+    gap: 2rem;
+  }
+  .paymentFooter{
+    padding: 0 3.5rem;
+  }
+  .paymentFooter p{
+    font-size: 1.6rem;
+  }
+  .paymentFooter img {
+    width: 12rem;
+  }
+  .btnmobile {
+    display: flex;
+    margin-top: 2rem;
+    width: 35rem;
+  }
+  .ticketForms{
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .ticketForms span{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.8rem;
+  }
+  .ticketForms h2 {
+    font-size: 1.4rem;
+  }
+  .ticketInfor p {
+    font-size: 1.2rem;
+  }
+  .ticketInfor label {
+    font-size: 1.5rem;
+  }
+  .ticketInfor input {
+    width: 35rem;
+    height: 2.3rem;
+  }
+}

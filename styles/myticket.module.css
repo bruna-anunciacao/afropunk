@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300;500;700&display=swap');
+
+.main {
+  background: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+  font-family: "Poppins", sans-serif;
+}
+
+.main section {
+  width: 80%;
+}
+
+.title h1 {
+  color: #f5f5f5;
+  font-family: Poppins;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu {
+  display: flex;
+  gap: 4.4rem;
+  border-bottom: #f5f5f5 0.1rem solid;
+  margin-top: 4.7rem;
+  padding: 0 2rem;
+}
+
+.menu button {
+  background: none;
+  border: none;
+  color: #f5f5f5;
+  font-family: Poppins;
+  font-size: 3.1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+
+.menu .activeButton{
+  color: #04d924;
+  border-bottom: #04d924 0.2rem solid;
+}
+
+.myticket {
+  height: 100vh;
+  flex-wrap: wrap;
+  margin: 8rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4.1rem;
+  overflow: auto;
+}
+
+.myticket p {
+  color: #f5f5f5;
+  font-family: Poppins;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.noTickets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.noTickets a {
+    color: #04d924;
+    width: fit-content;
+    text-align: center;
+    font-family: Audiowide;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    padding: 2.2rem;
+    border-radius: 1.1rem;
+    border: #04d924 0.07rem solid;
+    background: none;
+    text-decoration: none;
+}
+
+@media (max-width: 800px){
+  .title h1 {
+    font-size: 3rem;
+  }
+  .menu {
+    margin-top: 2rem;
+  }
+  .menu button {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+
+  .myticket {
+    margin: 4rem 0 8rem 0;
+  }
+
+  .myticket p {
+    font-size: 2.5rem;
+  }
+  .noTickets {
+    gap: 2.5rem;
+  }
+  .noTickets a {
+    font-size: 1.8rem;
+    height: 3rem;
+    padding: 2rem;
+    border: #04d924 0.03rem solid;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 640px){
+  .title h1 {
+    font-size: 3rem;
+  }
+  .menu {
+    margin-top: 2rem;
+  }
+  .menu button {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+
+  .myticket {
+    margin: 4rem 0 8rem 0;
+  }
+
+  .myticket p {
+    font-size: 2rem;
+  }
+  .noTickets {
+    gap: 2.5rem;
+  }
+  .noTickets a {
+    font-size: 1.8rem;
+    height: 3rem;
+    padding: 2rem;
+    border: #04d924 0.03rem solid;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px){
+  .title h1 {
+    font-size: 1.7rem;
+  }
+  .menu {
+    margin-top: 2rem;
+  }
+  .menu button {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+  }
+
+  .myticket {
+    margin: 4rem 0 8rem 0;
+  }
+
+  .myticket p {
+    font-size: 1.6rem;
+  }
+  .noTickets {
+    gap: 2rem;
+  }
+  .noTickets a {
+    font-size: 1.3rem;
+    height: 3rem;
+    padding: 1.1rem;
+    border: #04d924 0.03rem solid;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+}

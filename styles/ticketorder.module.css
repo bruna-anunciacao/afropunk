@@ -1,0 +1,164 @@
+.mainOrder {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  width: 49rem;
+  height: fit-content;
+  padding: 3rem;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 2.1rem;
+}
+
+.headerOrder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerOrder div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.headerOrder div:nth-child(1) h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.headerOrder div:nth-child(1) div p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.divOrder {
+  padding: 1rem;
+  border-radius: 1.6rem;
+  border: 0.16rem solid #04d924;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.divOrder p {
+  color: #04d924;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.mainOrder .contentOrder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contentOrder h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sectionOrder {
+  display: flex;
+  justify-content: space-between;
+  border: 0.4rem solid #000;
+  padding: 2.2rem;
+  align-items: flex-end;
+}
+
+.sectionOrder div:nth-child(1) {
+  background: #000;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.8rem 0;
+}
+.sectionOrder div:nth-child(1) p {
+  color: #f5f5f5;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.sectionOrder div:nth-child(1) span {
+  color: #04d924;
+  font-family: Poppins;
+  font-size: 12.293px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.orderValue p{
+  color: #0d0d0d;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: end;
+}
+
+.footerOrder p,
+.footerOrder h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 1024px){
+  .mainOrder {
+    left: 25%;
+  }
+}
+
+@media (max-width:800px){
+  .mainOrder{
+    width: 45rem;
+    top: 15%;
+    left: 25%;
+  }
+}
+@media (max-width: 640px){
+  .mainOrder{
+    top: 20%;
+    left: 15%;
+  }
+}
+
+@media(max-width: 530px){
+  .mainOrder{
+    left: 8%;
+  }
+}
+
+@media (max-width: 480px){
+  .mainOrder{
+    top: 25%;
+    left: 3%;
+  }
+}

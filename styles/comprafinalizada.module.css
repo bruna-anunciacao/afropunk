@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+.main {
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: 100%;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #000;
+    padding: 8rem 10.5rem;
+    gap: 9.5rem;
+    margin: 9rem 7.9rem 0rem;
+    background-color: #F5F5F5;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text>h2 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 3.6rem;
+    color: #0D0D0D;
+}
+
+.text>h3 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 2.9rem;
+    color: #0D0D0D;
+    padding: 2.1rem 0rem 3.4rem;
+}
+
+.text>a {
+    display: flex;
+    align-self: flex-start;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: #F5F5F5;
+    padding: 1rem 3.7rem;
+    background-color: #3CA638;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .main>div {
+        height: calc(100vh - 6rem);
+    }
+    .main>div {
+        background-color: #F5F5F5;
+    }
+    .section {
+        flex-direction: column;
+        gap: 2.4rem;
+        margin: 0rem 7.9rem 0rem;
+        padding: 2rem 1.9rem 10.8rem;
+    }
+    #verificado {
+        width: 9.2rem;
+        height: 9.2rem;
+    }
+    .text>h2 {
+        font-size: 2.94rem;
+    }
+    .text>h3 {
+        padding: 1.8rem 0rem 2.4rem;
+        font-size: 2.379rem;
+    }
+    .text>a {
+        font-size: 1.38rem;
+        width: 100%;
+        padding: 0.8rem 3rem;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .section {
+        padding: 1.9rem;
+    }
+    .text>h2 {
+        font-size: 2rem;
+    }
+    .text>h3 {
+        font-size: 1.6rem;
+    }
+    .text>a {
+        font-size: 1rem;
+    }
+}

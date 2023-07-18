@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.section {
+    background-color: #0D0D0D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.4rem 0rem 12.6rem;
+    gap: 12.7rem;
+}
+
+.div1 {
+    width: 100%;
+}
+
+.div1>h2 {
+    font-family: 'Audiowide';
+    font-size: 16rem;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+
+.divaleatoria {
+    border-top: 3px solid #F5F5F5;
+    margin-left: calc(50% - 31.15rem);
+}
+
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 6.67rem;
+    width: calc(75rem + 6.67rem + 6.67rem);
+}
+
+.image, .remove {
+    width: 25rem;
+    height: 25rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .div2 {
+        gap: 2.5rem;
+        justify-content: space-evenly;        
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section {
+        gap: 8rem;        
+        padding: 5rem 0rem 8rem;
+    }
+    .div1>h2 {
+        font-size: 5.5rem;
+    }
+    .divaleatoria {
+        border-top: 1px solid #F5F5F5;
+        margin-left: calc(50% - 10.7rem);
+    }    
+    /* #remove {
+        display: none;
+        visibility: hidden;
+        height: 0;
+    } */
+}
+
+@media only screen and (max-width: 425px) {
+    .section {
+        gap: 3.7rem;        
+        padding: 3.9rem 0rem 4.3rem;
+    }
+    .image {
+        width: 12.9rem;
+        height: 12.9rem;
+    }
+    /* .remove {
+        display: none;
+        visibility: hidden;
+        height: 0;
+    } */
+}

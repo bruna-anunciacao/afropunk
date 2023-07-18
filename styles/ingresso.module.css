@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.section {
+    background-color: #0D0D0D;
+}
+
+.ingresso {
+    width: 39.3rem;
+}
+
+.ingressotop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 13rem;
+    border-bottom: 5px dashed #0D0D0D;
+}
+
+#logo {
+    width: 19.3rem;
+    height: 3.5rem;
+}
+
+.ingressobottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 45.2rem;    
+}
+
+.text {
+    height: 37.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text>h2 {
+    font-family: 'Audiowide';
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #0D0D0D;    
+}
+
+#por {
+    font-size: 3.2rem;
+}
+
+#valor {
+    font-size: 5.5rem;
+    color: #3CA638;
+}
+
+.circulo {
+    border-radius: 8rem 8rem 0rem 0rem;
+    border: none;
+    width: 16rem;
+    height: 8rem;
+    background-color: #0D0D0D;
+}
+
+@media only screen and (max-width: 1280px) {
+    .ingresso {
+        width: 10.36rem;
+    }
+    .ingressotop {
+        height: 3.4rem;
+    }
+    .ingressobottom {
+        height: 11.8rem;    
+    }
+    #logo {
+        width: 50.8rem;
+        height: 1rem;
+    }
+    .text>h2 {
+        font-size: 1.68rem;
+    }
+    #por {
+        font-size: 0.84rem;
+    }
+    #valor {
+        font-size: 1.45rem;
+    }
+    .circulo {
+        width: 4.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .ingresso {
+        width: 10.36rem;
+    }
+    .ingressotop {
+        height: 3.4rem;
+    }
+    .ingressobottom {
+        height: 11.8rem;    
+    }
+    #logo {
+        width: 50.8rem;
+        height: 1rem;
+    }
+    .text>h2 {
+        font-size: 1.68rem;
+    }
+    #por {
+        font-size: 0.84rem;
+    }
+    #valor {
+        font-size: 1.45rem;
+    }
+    .circulo {
+        width: 4.2rem;
+    }
+}

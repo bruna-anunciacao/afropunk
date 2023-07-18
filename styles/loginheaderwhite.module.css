@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+.main {
+    width: 100%;
+    background: #F5F5F5;
+    height: 16rem;
+}
+
+.main header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 6rem 6rem;
+    color: #F5F5F5;
+}
+
+.main header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+  width: 33rem;
+  height: 4.2rem;
+  align-self: center;
+}
+
+.profile {
+  width: 6.4rem;
+  height: 6.4rem;
+  align-self: flex-end;
+}
+
+@media (max-width: 800px){
+  .main header{
+    justify-content: center;
+  }
+  .main header p, .main header button {
+    display: none;
+  }
+}

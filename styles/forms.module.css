@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+.main {
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 10.4rem;
+  justify-content: center;
+  margin-top: 6.2rem;
+}
+
+.header img {
+  width: 33.36rem;
+  height: 4.2rem;
+}
+
+.divBtn {
+  width: 100vh;
+  margin-right: 20.8rem;
+}
+
+.divBtn button {
+  width: 11.2rem;
+  height: 3.6rem;
+  background: none;
+  border: 1.7px solid #04d924;
+  color: #f5f5f5;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.send button {
+  width: 48.1rem;
+  height: 4.5rem;
+  border-radius: 0.75rem;
+  background: #04d924;
+  color: #f5f5f5;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  font-family: Poppins;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  width: 56rem;
+  height: 54.4rem;
+}
+
+.forms h1 {
+  color: #f5f5f5;
+  font-size: 6.23rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 6.7rem;
+}
+
+.forms input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0;
+  color: rgba(245, 245, 245, 0.5);
+  font-size: 2.67rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.5);
+  background: transparent;
+  outline: none;
+  margin-bottom: 5.04rem;
+}
+
+.send {
+  margin-top: 8rem;
+  margin-bottom: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.68rem;
+  font-family: Poppins;
+}
+
+.send p {
+  color: #f5f5f5;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.send a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #04d924;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+  height: 54.4rem;
+}
+
+.register h1 {
+  color: #f5f5f5;
+  font-size: 4.8rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 6.7rem;
+}
+
+.register input {
+  width: 53.1rem;
+  padding: 10px 0;
+  color: rgba(245, 245, 245, 0.5);
+  font-size: 2.67rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.5);
+  background: transparent;
+  outline: none;
+  margin-bottom: 5.04rem;
+}
+
+.register div {
+  display: flex;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm div {
+  gap: 5.1rem;
+}
+
+.age {
+  width: 53.1rem;
+}
+
+@media (max-width: 1024px) {
+  .header img {
+    width: 35rem;
+    height: 5rem;
+  }
+
+  .forms {
+    width: auto;
+    height: auto;
+  }
+  .forms h1 {
+    font-size: 6rem;
+    margin-top: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  .forms input {
+    width: 55rem;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .divBtn {
+    width: auto;
+    margin: 2rem 70rem 1rem 0;
+    margin-left: 0;
+  }
+  .divBtn button {
+    width: 11rem;
+    height: 3.5rem;
+    font-size: 2rem;
+  }
+  /* Essa parte é exclusiva da página login */
+  .send {
+    margin-top: 5.2rem;
+    gap: 2.4rem;
+    margin-bottom: 0;
+  }
+  .send button {
+    width: 35rem;
+    height: 4rem;
+    font-size: 2.5rem;
+  }
+  .send p,
+  .send a {
+    font-size: 2rem;
+  }
+
+    /* Essa parte é da página Register */
+
+    .register {
+      width: auto;
+      height: auto;
+    }
+  
+    .register .registerForm div {
+      width: auto;
+      height: auto;
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .register h1 {
+      font-size: 3.2rem;
+      margin-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .registerForm input {
+      width: 55rem;
+      font-size: 2rem;
+      margin-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 800px) {
+  .header img {
+    width: 35rem;
+    height: 8rem;
+  }
+
+  .forms {
+    width: auto;
+    height: auto;
+  }
+  .forms h1 {
+    font-size: 4.5rem;
+    margin-top: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  .forms input {
+    width: 60rem;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .divBtn {
+    width: auto;
+    margin: 2rem 50rem 1rem 0;
+    margin-left: 0;
+  }
+  .divBtn button {
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.8rem;
+  }
+  /* Essa parte é exclusiva da página login */
+  .send {
+    margin-top: 5.2rem;
+    gap: 2.4rem;
+    margin-bottom: 0;
+  }
+  .send button {
+    width: 45rem;
+    height: 4rem;
+    font-size: 2.5rem;
+  }
+  .send p,
+  .send a {
+    font-size: 2.3rem;
+  }
+
+  /* Essa parte é da página Register */
+
+  .register {
+    width: auto;
+    height: auto;
+  }
+
+  .register .registerForm div {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .register h1 {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .registerForm input {
+    width: 60rem;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .header img {
+    width: 35rem;
+    height: 5rem;
+  }
+
+  .forms {
+    width: auto;
+    height: auto;
+  }
+  .forms h1 {
+    font-size: 4rem;
+    margin-top: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  .forms input {
+    width: 47rem;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .divBtn {
+    width: auto;
+    margin: 2rem 40rem 1rem 0;
+    margin-left: 0;
+  }
+  .divBtn button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+  /* Essa parte é exclusiva da página login */
+  .send {
+    margin-top: 5.2rem;
+    gap: 2.4rem;
+    margin-bottom: 0;
+  }
+  .send button {
+    width: 35rem;
+    height: 4rem;
+    font-size: 2.5rem;
+  }
+  .send p,
+  .send a {
+    font-size: 2rem;
+  }
+
+  /* Essa parte é da página Register */
+
+  .register {
+    width: auto;
+    height: auto;
+  }
+
+  .register .registerForm div {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .register h1 {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .registerForm input {
+    width: 47rem;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header img {
+    width: 35rem;
+    height: 5rem;
+  }
+
+  .forms {
+    width: auto;
+    height: auto;
+  }
+  .forms h1 {
+    font-size: 3.2rem;
+    margin-top: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  .forms input {
+    width: 35rem;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .divBtn {
+    width: auto;
+    margin: 2rem 28rem 1rem 0;
+    margin-left: 0;
+  }
+  .divBtn button {
+    width: 7.2rem;
+    height: 2.3rem;
+    font-size: 1.27rem;
+  }
+  /* Essa parte é exclusiva da página login */
+  .send {
+    margin-top: 5.2rem;
+    margin-bottom: 0;
+    gap: 2.4rem;
+  }
+  .send button {
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.8rem;
+  }
+  .send p,
+  .send a {
+    font-size: 1.3rem;
+  }
+
+  /* Essa parte é da página Register */
+
+  .register {
+    width: auto;
+    height: auto;
+  }
+
+  .register .registerForm div {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .register h1 {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .registerForm input {
+    width: 35rem;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+.header {
+    background-color: #0D0D0D;
+    opacity: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    color: #D9D9D9;    
+    height: 11.4rem;
+    padding: 3.6rem;
+}
+
+#logo {
+    width: 17.6rem;
+    height: 2.6rem;
+}
+
+#menumobile {
+    display: none;
+}
+
+.header>div {
+    display: flex;
+    align-self: center;
+}
+
+.nav1>a {
+    font-size: 2.6rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+#comprar {
+    font-size: 2.1rem;
+    color: #3CA638;
+    font-weight: 900;
+    border: 1px solid #3CA638;
+    border-radius: 0.9rem 0px;
+    padding: 0rem 0.7rem;
+    text-decoration: none;
+}
+
+.nav1 {
+    display: flex;
+    gap: 4.5rem;
+}
+
+.nav2 {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+#casa {
+    display: flex;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1080px) {
+    .nav1 {
+        gap: 2rem;
+    }
+    .nav1>a, #comprar {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .nav1 {
+        display: none;
+    }
+    #casinha {
+        display: none;
+    }
+    #menumobile {
+        width: 3rem;
+        height: 3.7rem;
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header {
+        opacity: 100%;
+    }
+    #logo {
+        width: 15.6rem;
+        height: 2.4rem;
+    }
+    .nav1>a, #comprar {
+        font-size: 1.23rem;
+    }
+    .nav2 {
+        gap: 0.2rem;
+    }
+    #menumobile {
+        width: 1.9rem;
+        height: 1.8rem;
+    }
+}

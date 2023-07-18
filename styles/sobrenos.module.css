@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@500&display=swap');
+
+.section {
+    background-color: #0D0D0D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6.7895rem; /* 6.7895rem é apenas metade */ 
+    padding-bottom: 8.7rem; /* 8.7rem é apenas metade */    
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0rem 15.5rem;
+    gap: 8.422rem;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 2.03rem;
+}
+
+.linha1 {
+    border: 2px solid #FFF;
+    margin-right: calc(50% - 11.31rem);
+}
+
+.linha2 {
+    border: 2px solid #FFF;
+    margin-left: calc(50% - 11.31rem);
+}
+
+.titulo>h2 {
+    display: flex;
+    align-self: flex-start;
+    font-family: 'Audiowide';
+    font-size: 8.48rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.paragrafo>p {
+    font-family: 'Poppins';
+    font-size: 2.78rem;
+    font-weight: 500;
+    color: #F5F5F5;
+    line-height: 187%;
+}
+
+@media only screen and (max-width: 768px) {
+    .section {
+        padding-top: 2.1rem; /* é apenas metade */ 
+        padding-bottom: 2.55rem; /* é apenas metade */  
+    }
+    .div {
+        justify-content: center;
+        padding: 0rem 3.6rem;
+        gap: 2.4rem;
+    }
+    .titulo {
+        gap: 0.772rem;
+    }
+    .titulo>h2 {
+        font-size: 5rem;
+    }
+    .linha1 {
+        border: 0.761px solid #FFF;
+        margin-right: calc(50% - 4.3rem);
+    }
+    .linha2 {
+        border: 0.761px solid #FFF;
+        margin-left: calc(50% - 4.3rem);
+    }
+    .paragrafo>p {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .titulo>h2 {
+        font-size: 3.22rem;
+    }
+    .paragrafo>p {
+        font-size: 0.98rem;
+    }
+}

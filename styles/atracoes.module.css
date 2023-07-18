@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@700&display=swap');
+
+.section {
+    background-color: #0D0D0D;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 14.85rem;
+    padding-bottom: 7.76rem;
+}
+
+#linhatop {
+    border: 2.255px solid #F5F5F5;
+    margin-left: calc(50% - 20.85rem);
+}
+
+#linhabottom {
+    border: 2.255px solid #F5F5F5;
+    margin-right: calc(50% - 20.85rem);
+}
+
+.toptext {
+    display: flex;
+    width: 100%;
+}
+
+.toptexta {
+    padding-top: 0.4rem; /* por conta da borda */
+    width: 50%;
+    margin-left: 9rem;
+}
+
+.toptexta>a {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #F5F5F5;
+    border: 1px solid #04D924;
+    padding: 0.4rem 3.3rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.toptexth1 {
+    width: 50%;
+    margin-left: calc(-23rem - 9rem);
+}
+
+.toptexth1>h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 9.85rem;
+    color: #fff;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 49%;
+    gap: 6.3rem;
+    padding-bottom: 9rem;
+}
+
+.column>h2 {
+    font-family: 'Audiowide';
+    font-weight: 400;
+    font-size: 4.8rem;
+    color: #04D924;
+    margin-bottom: -3.2rem; /* é diferente do gap */ 
+}
+
+#linhacenter {
+    border: 2px solid #04D924;
+    padding-top: 3.05rem;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: column;
+    gap: 6.9rem;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 38.9rem;
+    height: 8.8rem;
+    background-color: #04D924;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardimpar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card>p, .card>p {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2rem;
+    color: #04D924;
+    background-color: #0D0D0D;
+    padding: 0rem 2.2rem;
+}
+
+.card>h3, .card>h3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 3.6rem;
+    color: #0D0D0D;
+}
+
+@media only screen and (max-width: 1024px) {
+    .toptexta {
+        margin-left: 2.2rem;
+    }
+    .toptexth1 {
+        margin-left: calc(-23rem - 2.2rem);
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    #linhacenter {
+        display: none;
+    }
+    .toptexta>a {
+        font-size: 2rem;
+        padding: 0rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .toptexta>a {
+        font-size: 1.5rem;
+        padding: 0rem 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .top {
+        padding-top: 0rem;
+        padding-bottom: 2.5rem;
+    }
+    #linhatop {
+        border: 0.628px solid #F5F5F5;
+        margin-left: calc(50% - 2.3rem);
+    }
+    #linhabottom {
+        border: 0.628px solid #F5F5F5;
+        margin-right: calc(50% - 2.3rem);
+    }
+    .toptexth1 {
+        margin-left: calc(-6.4rem - 2.2rem);
+    }
+    .toptexth1>h1 {
+        font-size: 2.7rem;
+    }
+    .column {
+        padding-bottom: 2.5rem;
+    }
+    .column>h2 {
+        font-size: 2.8rem;
+    }
+    .colunas {
+        width: 75%;
+        gap: 0rem;
+    }
+    .card {
+        width: 13.25rem;
+        height: 3rem;
+    }
+    .card>p {
+        font-size: 0.68rem;
+    }
+    .card>h3 {
+        font-size: 1.22rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .toptexta>a {
+        padding: 0rem;
+    }
+}

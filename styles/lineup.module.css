@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@900&display=swap');
+
+.section {
+    background-color: #0D0D0D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8.7rem;  /* 8.7rem é apenas metade */ 
+    padding-bottom: 11.65rem; /*11.65rem é apenas metade*/
+}
+
+.titulo>h2 {
+    font-family: 'Audiowide';
+    font-size: 19.1rem;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+
+.titulo>h2>span {
+    font-family: 'Audiowide';
+    font-size: 19.1rem;
+    font-weight: 400;
+    color: #04D924;
+}
+
+.images {
+    padding: 15.615rem 0rem 5.352rem;
+    display: flex;
+}
+
+#image1 {
+    width: 54.3rem;
+    height: 30.5rem;
+}
+
+#image2 {
+    width: 54.5rem;
+    height: 34.1rem;
+}
+
+.text1, .text1>div, .text2, .text2>div, .text3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text2p, .nomegrande {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text1>h5, .text1>div>h5, .text2>div>h5, .text3>h5 {
+    font-family: 'Audiowide';
+    font-weight: 400;
+    color: #F5F5F5
+}
+
+.text1>div>h5, .text1>h5 {
+    font-size: 7.2375rem;
+}
+
+.text2>div>h5 {
+    font-size: 5.4516rem;
+}
+
+.text3>h5 {
+    font-size: 10rem;
+}
+
+.text1>div>h3, .text1>div>h3 {
+    font-family: 'Poppins';
+    font-size: 5.32rem;
+    font-weight: 900;
+    color: #04D924;
+}
+
+.text2>div>h4, .nomegrande>h4 {
+    font-family: 'Poppins';
+    font-size: 4rem;
+    font-weight: 900;
+    color: #F5F5F5;
+}
+
+.text3>h3 {
+    font-family: 'Poppins';
+    font-size: 7.37rem;
+    font-weight: 900;
+    color: #04D924;
+}
+
+.text2p {
+    gap: 2rem;
+}
+
+.text2 {
+    gap: 1rem;
+}
+
+.text3 {
+    padding: 0.975rem 0rem 8.425rem;
+}
+
+.bottom {
+    width: 25.2rem;
+    height: 12.5rem;
+    background-color: #04D924;
+    border-radius: 5.0875rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom>a {    
+    font-family: 'Poppins';
+    font-size: 13.82rem;
+    font-weight: 900;
+    color: #FFF;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .section {
+        padding-top: 5.1rem;
+        padding-bottom: 3.87rem;
+    }
+    .images {
+        padding: 2.4rem 0rem 7.3rem;
+    }
+    .titulo>h2, .titulo>h2>span {
+        font-size: 10rem;
+    }
+    #image1 {
+        width: 27rem;
+        height: 15rem;
+    }
+    #image2 {
+        width: 27rem;
+        height: 17rem;
+    }
+    .text1>h5, .text1>div>h5 {
+        font-size: 3.6rem;
+    }    
+    .text2>h5, .text2>div>h5 {
+        font-size: 2.7rem;
+    }    
+    .text3>h5 {
+        font-size: 5rem;
+    }
+    .text1>div>h3 {
+        font-size: 2.6rem;
+    }    
+    .text2>div>h4, .nomegrande>h4 {
+        font-size: 2rem;
+    }    
+    .text3>h3 {
+        font-size: 3.7rem;
+    }    
+    .text2p {
+        gap: 1rem;
+    }    
+    .text2 {
+        gap: 0.5rem;
+    }    
+    .text3 {
+        padding: 0.5rem 0rem 4.2rem;
+    }
+    .bottom {
+        width: 12.5rem;
+        height: 6.2rem;
+        border-radius: 2.5rem 0rem;
+    }    
+    .bottom>a {
+        font-size: 6.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .titulo>h2, .titulo>h2>span {
+        font-size: 5.65rem;
+    }
+    .images {
+        padding: 2.4rem 2.2rem 7.34rem;
+        width: 346px;
+        flex-direction: column;
+    }
+    #image2 {
+        width: 23.6rem;
+        height: 14.8rem;        
+        order: 1;
+        display: flex;
+        align-self: flex-end;
+    }
+    #image1 {
+        width: 21.1rem;
+        height: 11.9rem;
+        order: 2;       
+        margin-top: -5rem;        
+        display: flex;
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    /* .remove {
+        display: none;
+        visibility: hidden;
+        height: 0;
+    } */
+    .text1, .text2 {
+        flex-direction: column;
+    }
+    .text1>div, .text2>div {
+        gap: 1rem;
+    }
+    .text1>div>h3 {
+        font-size: 3rem;        
+    }
+    .text1>div>h5 {
+        font-size: 4.2rem;
+    }
+    .text1>div>h4, .nomegrande>h4 {
+        font-size: 2.08rem;
+    }
+    .text2>div>h5 {
+        font-size: 2.8rem;
+    }
+    #ludmilla {
+        font-size: 3.87rem;
+    }
+    #order1 {
+        order: 1;
+    }
+    #order2 {
+        order: 2;
+    }
+    #order3 {
+        order: 3;
+    }
+    #order4 {
+        order: 4;
+    }
+    #order5 {
+        order: 5;
+    }
+    #order6 {
+        order: 6;
+    }
+}

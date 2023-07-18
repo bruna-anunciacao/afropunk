@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D0D;
+}
+
+.section {
+    /* width: 81.6rem; */
+    width: 92.2rem; /* por conta dos ingressos */
+    padding-bottom: 17.3rem;
+}
+
+#logodescricao {
+    width: 81.6rem;
+    height: 45.9rem;
+}
+
+.descricao {
+    padding-top: 3.5rem;
+}
+
+.descricao>h1 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 4.4rem;
+    color: #F5F5F5;
+}
+
+.paragrafos {
+    padding: 3rem 0rem 2.8rem;
+}
+
+.paragrafos>p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #F5F5F5;
+}
+
+.plus {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 3rem;
+}
+
+.plus>p, .plus>div>p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #F5F5F5;
+}
+
+#span {
+    color: #04D924;
+}
+
+#linha {
+    border: 1px solid #F5F5F5;
+    width: 100%;
+}
+
+#seta {
+    display: flex;
+    justify-content: center;
+    padding: 2.4rem 0rem 5.6rem;
+}
+
+#setacima, #setabaixo {
+    width: 4.4rem;
+    height: 2.4rem;
+}
+
+#seta>a {
+    cursor: pointer;
+}
+
+.arena {
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arena>h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 4rem;
+    color: #022601;
+}
+
+.ingressos {
+    display: flex;
+    gap: 2.6rem;
+    flex-wrap: wrap;
+    padding: 3.8rem 0rem 3.5rem;
+}
+
+.card {
+    width: 44.8rem;
+    height: 12.2rem;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.cardtext>p {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#ajuste {
+    margin-top: -2rem;
+}
+
+.numerosingressos {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.numerosingressos>a {
+    cursor: pointer;
+}
+
+.botaomenos, .botaomais {
+    width: 2rem;
+    height: 2rem;
+}
+
+.numerosingressos>p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000;
+}
+
+.subtotal {
+    border: 1px solid #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem;
+}
+
+.subtotal>h2 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.subtotal>.botaosubtotal {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 1.6rem;
+    color: #F5F5F5;
+    text-decoration: none;
+    background-color: #04D924;
+    border-radius: 7.5rem;
+    padding: 0.45rem 1.5rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .section {
+        width: 100vw;
+        padding: 0rem 3rem 6rem;
+    }    
+    #logodescricao {
+        width: 48rem;
+        height: 27rem;
+    }
+    .ingressos {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #logodescricao {
+        width: 32.05rem;
+        height: 18rem;
+    }
+    .descricao {
+        padding-top: 1.5rem;
+    }
+    .descricao>h1 {
+        font-size: 1.738rem;
+    }
+    .paragrafos {
+        padding: 1.1rem 0rem;
+    }
+    .paragrafos>p, .plus>p, .plus>div>p {
+        font-size: 0.94rem;
+    }
+    #seta {
+        padding: 0.9rem 0rem 1.8rem;
+    }
+    #setacima, #setabaixo {
+        width: 1.72rem;
+        height: 0.928rem;
+    }
+    .arena>h2 {
+        font-size: 1.4rem;
+    }
+    .ingressos {
+        gap: 0.779rem;
+        padding: 1.7rem 0rem 0rem;
+    }
+    .card {
+        width: 19.4rem;
+        height: 5.28rem;
+        padding: 0.7rem 0.95rem;
+    }
+    .cardtext>p {
+        font-size: 0.7rem;
+    }
+    #ajuste {
+        margin-top: -0.8rem;
+    }
+    .numerosingressos>p {
+        font-size: 0.86rem;
+    }
+    .subtotal {
+        border: none;
+        padding: 0rem;
+        align-items: center;
+    }
+    .subtotal>h2  {
+        font-size: 1.42rem;
+        padding-top: 1.85rem;
+        padding-bottom: 2.5rem;
+    }
+    .botaosubtotal {
+        font-size: 1.11rem;
+    }
+    .botaomenos, .botaomais {
+        width: 0.866rem;
+        height: 0.866rem;
+    }
+}
